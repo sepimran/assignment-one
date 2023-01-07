@@ -1,0 +1,325 @@
+/* common css */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.62;
+    color: #444343;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #151414;
+    line-height: 1.25;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* banner CSS */
+section.banner-area {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #0163AF;
+    padding: 120px 0;
+}
+
+section.banner-area .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.banner-content-area {
+    text-align: right;
+    width: 50%;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.banner-content-area h1 {
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 14px 25px;
+    margin-top: 40px;
+    transition: .3s all;
+    color: #005FAC;
+}
+
+a.boxed-btn:hover {
+    background: #FAA116;
+    color: #ffff;
+}
+
+/* promo area css */
+section.promo-area {
+    padding: 70px 0;
+}
+
+.section-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.single-promo-item {
+    width: 25%;
+    padding: 0 15px ;
+}
+
+.promo-content-area {
+    background-color: #fff;
+    box-shadow: 0px 10px 60px 0px rgb(0 32 110 / 7%);
+    padding: 40px 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.promo-content-area .icon {
+    font-size: 45px;
+    color: #005FAC;
+    margin-bottom: 0;
+}
+
+.promo-content-area h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* About area Css */
+section.about-area {
+    padding-bottom: 70px;
+}
+
+.about-img-area {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.about-content-area {
+    width: 50%;
+    padding: 0 15px;
+    padding-left: 145px;
+}
+
+section.about-area .container {
+    align-items: center;
+}
+
+.about-content-area h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.about-content-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.about-content-area ul li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+.about-content-area ul li {
+    margin-bottom: 5px;
+}
+
+/* Plan area css */
+
+.single-plan-item {
+    text-align: center;
+    padding: 0 15px;
+    width: 25%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.single-plan-item h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* CTA area CSS*/
+
+section.cta-area {
+    padding: 80px 0;
+}
+
+section.cta-area .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cta-content-area {
+    width: 100%;
+    padding: 60px 40px;
+    background:linear-gradient(to left, rgba(245, 246, 252, 0.0), rgba(0, 94, 170, 1)) , url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.cta-content-area h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/* Footer Css */
+
+footer.footer-area {
+    background: #151414;
+    padding: 70px 0;
+}
+
+.footer-left {
+    width: 50%;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.footer-left h2 {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    padding: 0 15px;
+}
+
+.footer-contact {
+    margin-top: 30px;
+}
+
+.footer-contact ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer-contact ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.footer-contact ul li a:hover {
+    color: #FAA116;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
+
+.footer-social ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.footer-social ul li a{
+    transition: .3s all;
+}
+
+.footer-social ul li a:hover{
+    opacity: .6;
+}
+
+.subscriber-area {
+    max-width: 325px;
+}
+
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.subscriber-area h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subscriber-area  form input {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    padding: 21px 20px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 18px;
+    color: #fff
+}
+
+.subscriber-area  form input:focus{
+    outline: none;
+}
+
+.subscriber-area  form input::placeholder{
+    color: #fff
+}
+
+.subscriber-area form button {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding: 19px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 18px;
+    max-width: 170px;
+    border: 0;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.subscriber-area form button:hover{
+    background: #FAA116;;
+}
